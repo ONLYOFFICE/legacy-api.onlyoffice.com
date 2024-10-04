@@ -1,6 +1,6 @@
 # Change Log
 
-##
+## 5.2.0
 - try new button
 
 ## 5.1.0
