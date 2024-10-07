@@ -18,28 +18,28 @@
 
 <h2>Download a sample</h2>
 
-<p>Download one of the Builder .Net samples archive and unzip it into a folder with general editing access.</p>
+<p>Download one of the Builder .Net samples and copy it into a folder with general editing access.</p>
 <ul>
     <li>
-        <a href="<%= new System.UriBuilder(Request.Url.AbsoluteUri) { Path = "/app_data/docbuilder/csharp-samples/FillingSpreadsheet.zip" }.ToString() %>">Filling spreadsheet</a>
+        <a href="https://github.com/ONLYOFFICE/document-builder-samples/blob/master/csharp/FillingSpreadsheet/FillingSpreadsheet/Program.cs">Filling spreadsheet</a>
     </li>
     <li>
-        <a href="<%= new System.UriBuilder(Request.Url.AbsoluteUri) { Path = "/app_data/docbuilder/csharp-samples/CommentingErrors.zip" }.ToString() %>">Commenting spreadsheet errors</a>
+        <a href="https://github.com/ONLYOFFICE/document-builder-samples/blob/master/csharp/CommentingErrors/CommentingErrors/Program.cs">Commenting spreadsheet errors</a>
     </li>
     <li>
-        <a href="<%= new System.UriBuilder(Request.Url.AbsoluteUri) { Path = "/app_data/docbuilder/csharp-samples/CreatingPresentation.zip" }.ToString() %>">Creating presentation</a>
+        <a href="https://github.com/ONLYOFFICE/document-builder-samples/blob/master/csharp/CreatingPresentation/CreatingPresentation/Program.cs">Creating presentation</a>
     </li>
     <li>
-        <a href="<%= new System.UriBuilder(Request.Url.AbsoluteUri) { Path = "/app_data/docbuilder/csharp-samples/CreatingChartPresentation.zip" }.ToString() %>">Creating chart presentation</a>
+        <a href="https://github.com/ONLYOFFICE/document-builder-samples/blob/master/csharp/CreatingChartPresentation/CreatingChartPresentation/Program.cs">Creating chart presentation</a>
     </li>
     <li>
-        <a href="<%= new System.UriBuilder(Request.Url.AbsoluteUri) { Path = "/app_data/docbuilder/csharp-samples/CreatingBasicForm.zip" }.ToString() %>">Creating basic form</a>
+        <a href="https://github.com/ONLYOFFICE/document-builder-samples/blob/master/csharp/CreatingBasicForm/CreatingBasicForm/Program.cs">Creating basic form</a>
     </li>
     <li>
-        <a href="<%= new System.UriBuilder(Request.Url.AbsoluteUri) { Path = "/app_data/docbuilder/csharp-samples/CreatingAdvancedForm.zip" }.ToString() %>">Creating advanced form</a>
+        <a href="https://github.com/ONLYOFFICE/document-builder-samples/blob/master/csharp/CreatingAdvancedForm/CreatingAdvancedForm/Program.cs">Creating advanced form</a>
     </li>
     <li>
-        <a href="<%= new System.UriBuilder(Request.Url.AbsoluteUri) { Path = "/app_data/docbuilder/csharp-samples/FillingForm.zip" }.ToString() %>">Filling form</a>
+        <a href="https://github.com/ONLYOFFICE/document-builder-samples/blob/master/csharp/FillingForm/FillingForm/Program.cs">Filling form</a>
     </li>
 </ul>
 
