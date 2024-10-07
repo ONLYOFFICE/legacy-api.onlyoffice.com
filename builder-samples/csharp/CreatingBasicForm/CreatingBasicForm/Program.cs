@@ -44,16 +44,15 @@ namespace Sample
         public static void Main(string[] args)
         {
             string workDirectory = "C:/Program Files/ONLYOFFICE/DocumentBuilder";
-            string resultPath = "../../../../result.docxf";
-
+            string resultPath = "../../../../result.pdf";
             // add Docbuilder dlls in path
             System.Environment.SetEnvironmentVariable("PATH", System.Environment.GetEnvironmentVariable("PATH") + ";" + workDirectory);
 
             CreateBasicForm(workDirectory, resultPath);
         }
-        public static void CreateBasicForm(string workDirectory, string resultPath)
+        public static void CreateBasicForm(string workDirectory, string resultPdfPath)
         {
-            var doctype = (int)OfficeFileTypes.Document.DOCX;
+            var doctype = (int)OfficeFileTypes.Document.OFORM_PDF;
 
             // Init DocBuilder
             CDocBuilder.Initialize(workDirectory);
@@ -86,12 +85,12 @@ namespace Sample
             oParagraph.Call("AddElement", oTextForm);
             oDocument.Call("Push", oParagraph);
 
-            // Save file and close DocBuilder
-            oBuilder.SaveFile(doctype, resultPath);
+            // Save .pdf file
+            oBuilder.SaveFile(doctype, resultPdfPath);
             oBuilder.CloseFile();
-
             CDocBuilder.Destroy();
         }
+
         public static void setPictureFormProperties(CValue oPictureForm, string key, string tip, bool required, string placeholder, string scaleFlag, bool lockAspectRatio, bool respectBorders, int shiftX, int shiftY, string imageUrl)
         {
             oPictureForm.Call("SetFormKey", key);

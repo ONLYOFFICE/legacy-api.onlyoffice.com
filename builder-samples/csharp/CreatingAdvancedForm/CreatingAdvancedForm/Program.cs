@@ -44,16 +44,16 @@ namespace Sample
         public static void Main(string[] args)
         {
             string workDirectory = "C:/Program Files/ONLYOFFICE/DocumentBuilder";
-            string resultPath = "../../../../result.docxf";
+            string resultPath = "../../../../result.pdf";
 
             // add Docbuilder dlls in path
             System.Environment.SetEnvironmentVariable("PATH", System.Environment.GetEnvironmentVariable("PATH") + ";" + workDirectory);
 
             CreateAdvancedForm(workDirectory, resultPath);
         }
-        public static void CreateAdvancedForm(string workDirectory, string resultPath)
+        public static void CreateAdvancedForm(string workDirectory, string resultPdfPath)
         {
-            var doctype = (int)OfficeFileTypes.Document.DOCX;
+            var doctype = (int)OfficeFileTypes.Document.OFORM_PDF;
 
             // Init DocBuilder
             CDocBuilder.Initialize(workDirectory);
@@ -134,12 +134,12 @@ namespace Sample
             oDocument.Call("RemoveElement", 0);
             oDocument.Call("RemoveElement", 1);
 
-            // Save file and close DocBuilder
-            oBuilder.SaveFile(doctype, resultPath);
+            // Save .pdf file
+            oBuilder.SaveFile(doctype, resultPdfPath);
             oBuilder.CloseFile();
-
             CDocBuilder.Destroy();
         }
+
         public static CValue createFullWidthTable(CValue oApi, int rows, int cols, int borderColor)
         {
             CValue oTable = oApi.Call("CreateTable", cols, rows);

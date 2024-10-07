@@ -29,15 +29,19 @@
 * terms at http://creativecommons.org/licenses/by-sa/4.0/legalcode
 *
 */
-
+#include <filesystem>
 #include <string>
+#include <iostream>
+
 #include "C:/Program Files/ONLYOFFICE/DocumentBuilder/include/common.h"
 #include "C:/Program Files/ONLYOFFICE/DocumentBuilder/include/docbuilder.h"
-#pragma comment(lib, "C:/Program Files/ONLYOFFICE/DocumentBuilder/doctrenderer.lib")
+#pragma comment(lib, "C:\\Program Files\\ONLYOFFICE\\DocumentBuilder\\doctrenderer.lib")
 using namespace NSDoctRenderer;
+using namespace std;
+namespace fs = std::filesystem;
 
 const wchar_t* workDir = L"C:\\Program Files\\ONLYOFFICE\\DocumentBuilder";
-const wchar_t* resultPath = L"../result.docx";
+const wchar_t* resultPath = L"../result.pdf";
 
 // Helper functions
 void setPictureFormProperties(CValue oPictureForm, std::string key, std::string tip, bool required, std::string placeholder, std::string scaleFlag, bool lockAspectRatio, bool respectBorders, int shiftX, int shiftY, std::string imageUrl)
@@ -101,8 +105,10 @@ int main(int argc, char* argv[])
     oDocument.Call("Push", oParagraph);
 
     // Save and close
-    oBuilder.SaveFile(OFFICESTUDIO_FILE_DOCUMENT_DOCX, resultPath);
+    oBuilder.SetProperty("--work-directory", workDir);
+    oBuilder.SaveFile(OFFICESTUDIO_FILE_CROSSPLATFORM_PDF, resultPath);
     oBuilder.CloseFile();
     CDocBuilder::Dispose();
+
     return 0;
 }
