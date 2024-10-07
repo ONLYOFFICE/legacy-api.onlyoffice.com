@@ -33,14 +33,16 @@
 #include<map>
 #include <string>
 #include <iostream>
+#include <filesystem>
 #include "C:/Program Files/ONLYOFFICE/DocumentBuilder/include/common.h"
 #include "C:/Program Files/ONLYOFFICE/DocumentBuilder/include/docbuilder.h"
 #pragma comment(lib, "C:/Program Files/ONLYOFFICE/DocumentBuilder/doctrenderer.lib")
-using namespace std;
 using namespace NSDoctRenderer;
+using namespace std;
+namespace fs = std::filesystem;
 
 const wchar_t* workDir = L"C:\\Program Files\\ONLYOFFICE\\DocumentBuilder";
-const wchar_t* resultPath = L"../result.docx";
+const wchar_t* resultPath = L"../result.pdf";
 
 // Helper functions
 string cValueToString(CValue value)
@@ -201,8 +203,10 @@ int main(int argc, char* argv[])
     oDocument.Call("RemoveElement", 1);
 
     // Save and close
-    oBuilder.SaveFile(OFFICESTUDIO_FILE_DOCUMENT_DOCX, resultPath);
+    oBuilder.SetProperty("--work-directory", workDir);
+    oBuilder.SaveFile(OFFICESTUDIO_FILE_CROSSPLATFORM_PDF, resultPath);
     oBuilder.CloseFile();
     CDocBuilder::Dispose();
+
     return 0;
 }
