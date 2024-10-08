@@ -478,6 +478,7 @@
     <Content Include="Views\Home\Index.aspx" />
     <Content Include="Views\Home\Lines\docsLine.ascx" />
     <Content Include="Views\Home\ProductBlock.ascx" />
+    <Content Include="Views\Shared\TryNew.ascx" />
     <Content Include="Views\Shared\AnalyticNoScript.ascx" />
     <Content Include="Views\Shared\Analytic.ascx" />
     <Content Include="Views\Shared\BreadCrumbs.ascx" />

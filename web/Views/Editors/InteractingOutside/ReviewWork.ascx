@@ -91,6 +91,10 @@ $("#next").on("click", function () {
                         CallbackUrl = Url.Action("callback", "editors", null, Request.Url.Scheme),
                         Customization = new Config.EditorConfigConfiguration.CustomizationConfig
                             {
+                                Anonymous = new Config.EditorConfigConfiguration.CustomizationConfig.AnonymousConfig
+                                    {
+                                        Request = false
+                                    },
                                 HideRightMenu = true,
                                 HideRulers = true,
                                 IntegrationMode = "embed",

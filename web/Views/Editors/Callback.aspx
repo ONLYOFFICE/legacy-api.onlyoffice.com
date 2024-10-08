@@ -65,7 +65,7 @@
                 <td id="changesurl" class="copy-link">changesurl</td>
                 <td>
                     使用文档编辑数据定义文件的链接，用于跟踪和显示文档更改历史记录。
-                    仅当 <em>status</em> 等于 <b>2</b> 或 <b>3</b> 时，链接才存在。必须保存文件，并且必须使用 <a href="<%= Url.Action("methods") %>#setHistoryData">setHistoryData</a> 方法将其地址作为 <i>changesUrl</i> 参数发送，以显示与特定文档版本对应的更改。
+                    仅当 <em>status</em> 等于 <b>2</b>, <b>3</b>, <b>6</b> 或 <b>7</b> 时，链接才存在。必须保存文件，并且必须使用 <a href="<%= Url.Action("methods") %>#setHistoryData">setHistoryData</a> 方法将其地址作为 <i>changesUrl</i> 参数发送，以显示与特定文档版本对应的更改。
                 </td>
                 <td>string</td>
                 <td>可选的</td>
