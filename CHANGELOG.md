@@ -1,6 +1,7 @@
 # Change Log
 
 - docbuilder: samples as link
+- try new version with new link
 
 ## 5.2.0
 - try new button
