@@ -1,5 +1,8 @@
 # Change Log
 
+## 5.2.1
+- fix google search
+
 ## 5.2.0
 - try new button
 
