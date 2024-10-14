@@ -4,7 +4,7 @@
 - try new version with new link
 
 ## 5.2.1
-- fix google search
+- hide search
 
 ## 5.2.0
 - try new button
