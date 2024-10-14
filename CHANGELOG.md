@@ -2,8 +2,6 @@
 
 - docbuilder: samples as link
 - try new version with new link
-
-## 5.2.1
 - hide search
 
 ## 5.2.0
