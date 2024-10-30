@@ -18,7 +18,7 @@
     <ol>
         <li>
             <p>Download <b>ONLYOFFICE Document Builder</b> application and install it to your computer:</p>
-            <a href="https://www.onlyoffice.com/download-builder.aspx?from=api" class="button" target="blank">Get ONLYOFFICE Document Builder</a>
+            <a href="https://www.onlyoffice.com/download-builder.aspx?from=api" class="button" target="_blank">Get ONLYOFFICE Document Builder</a>
         </li>
 
         <li>

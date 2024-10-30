@@ -598,9 +598,44 @@
     </ul>
     <br />
 
+    <p><b>Chart series methods</b></p>
+    <ul>
+        <li>Added the <a href="<%= Url.Action("textdocumentapi/apichart/getallseries") %>">ApiChart/GetAllSeries</a> method to Text document API.</li>
+        <li>Added the <a href="<%= Url.Action("textdocumentapi/apichart/getcharttype") %>">ApiChart/GetChartType</a> method to Text document API.</li>
+        <li>Added the <a href="<%= Url.Action("textdocumentapi/apichart/getseries") %>">ApiChart/GetSeries</a> method to Text document API.</li>
+        <li>Added the <a href="<%= Url.Action("textdocumentapi/apichartseries") %>">ApiChartSeries</a> class to Text document API.</li>
+        <li>Added the <a href="<%= Url.Action("textdocumentapi/apichartseries/changecharttype") %>">ApiChartSeries/ChangeChartType</a> method to Text document API.</li>
+        <li>Added the <a href="<%= Url.Action("textdocumentapi/apichartseries/getcharttype") %>">ApiChartSeries/GetChartType</a> method to Text document API.</li>
+        <li>Added the <a href="<%= Url.Action("textdocumentapi/apichartseries/getclasstype") %>">ApiChartSeries/GetClassType</a> method to Text document API.</li>
+    </ul>
+    <p class="spoiler_heading spoiler_changelog">More</p>
+    <ul class="spoiler_code">
+        <li>Added the <a href="<%= Url.Action("spreadsheetapi/apichart/getallseries") %>">ApiChart/GetAllSeries</a> method to Spreadsheet API.</li>
+        <li>Added the <a href="<%= Url.Action("spreadsheetapi/apichart/getcharttype") %>">ApiChart/GetChartType</a> method to Spreadsheet API.</li>
+        <li>Added the <a href="<%= Url.Action("spreadsheetapi/apichart/getseries") %>">ApiChart/GetSeries</a> method to Spreadsheet API.</li>
+        <li>Added the <a href="<%= Url.Action("spreadsheetapi/apichartseries") %>">ApiChartSeries</a> class to Spreadsheet API.</li>
+        <li>Added the <a href="<%= Url.Action("spreadsheetapi/apichartseries/changecharttype") %>">ApiChartSeries/ChangeChartType</a> method to Spreadsheet API.</li>
+        <li>Added the <a href="<%= Url.Action("spreadsheetapi/apichartseries/getcharttype") %>">ApiChartSeries/GetChartType</a> method to Spreadsheet API.</li>
+        <li>Added the <a href="<%= Url.Action("spreadsheetapi/apichartseries/getclasstype") %>">ApiChartSeries/GetClassType</a> method to Spreadsheet API.</li>
+        <li>Added the <a href="<%= Url.Action("presentationapi/apichart/getallseries") %>">ApiChart/GetAllSeries</a> method to Presentation API.</li>
+        <li>Added the <a href="<%= Url.Action("presentationapi/apichart/getcharttype") %>">ApiChart/GetChartType</a> method to Presentation API.</li>
+        <li>Added the <a href="<%= Url.Action("presentationapi/apichart/getseries") %>">ApiChart/GetSeries</a> method to Presentation API.</li>
+        <li>Added the <a href="<%= Url.Action("presentationapi/apichartseries") %>">ApiChartSeries</a> class to Presentation API.</li>
+        <li>Added the <a href="<%= Url.Action("presentationapi/apichartseries/changecharttype") %>">ApiChartSeries/ChangeChartType</a> method to Presentation API.</li>
+        <li>Added the <a href="<%= Url.Action("presentationapi/apichartseries/getcharttype") %>">ApiChartSeries/GetChartType</a> method to Presentation API.</li>
+        <li>Added the <a href="<%= Url.Action("presentationapi/apichartseries/getclasstype") %>">ApiChartSeries/GetClassType</a> method to Presentation API.</li>
+        <li>Added the <em>"comboBarLine"</em>, <em>"comboBarLineSecondary"</em>, <em>"comboCustom"</em>, and <em>"unknown"</em> available values for the
+            <a href="<%= Url.Action("global") %>#ChartType">ChartType</a> definition.</li>
+    </ul>
+    <br />
+
     <p><b>Other methods</b></p>
     <ul>
         <li>Added the <em>nWidth</em> and <em>nHeight</em> parameters to the <a href="<%= Url.Action("textdocumentapi/apipictureform/setimage") %>">ApiPictureForm/SetImage</a> method of Text document API.</li>
+        <li>Added the <a href="<%= Url.Action("global") %>#DrawingLockType">DrawingLockType</a> type to the simple type definitions.</li>
+        <li>Removed the <em>ApiTable/GetNext</em> method from Text document API.</li>
+        <li>Removed the <em>ApiTable/GetPrevious</em> method from Text document API.</li>
+        <li>Removed the <em>ApiTable/Select</em> method from Presentation API.</li>
     </ul>
     <br />
 
@@ -621,6 +656,7 @@
         <li>Added the <a href="<%= Url.Action("spreadsheetapi/apifreezepanes/freezecolumns") %>">ApiFreezePanes/FreezeColumns</a> method to Spreadsheet API.</li>
         <li>Added the <a href="<%= Url.Action("spreadsheetapi/apifreezepanes/freezerows") %>">ApiFreezePanes/FreezeRows</a> method to Spreadsheet API.</li>
         <li>Added the <a href="<%= Url.Action("spreadsheetapi/apifreezepanes/getlocation") %>">ApiFreezePanes/GetLocation</a> method to Spreadsheet API.</li>
+        <li>Added the <a href="<%= Url.Action("spreadsheetapi/apifreezepanes/unfreeze") %>">ApiFreezePanes/Unfreeze</a> method to Spreadsheet API.</li>
         <li>Added the <a href="<%= Url.Action("spreadsheetapi/apiworksheet/getfreezepanes") %>">ApiWorksheet/GetFreezePanes</a> method to Spreadsheet API.</li>
         <li>Added the <em>FreezePanes</em> property to the <a href="<%= Url.Action("spreadsheetapi/api") %>">Api</a> object of Spreadsheet API.</li>
         <li>Added the <em>FreezePanes</em> property to the <a href="<%= Url.Action("spreadsheetapi/apiworksheet") %>">ApiWorksheet</a> object of Spreadsheet API.</li>

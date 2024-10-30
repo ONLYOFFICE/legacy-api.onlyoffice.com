@@ -167,6 +167,18 @@ namespace ASC.Api.Web.Help
 
         protected void Application_BeginRequest(object sender, EventArgs e)
         {
+            if (HttpContext.Current != null
+                && !string.IsNullOrEmpty(HttpContext.Current.Request["new"]))
+            {
+                var cookieName = "X-OO-API";
+                HttpContext.Current.Response.Cookies[cookieName].Value = "1";
+                HttpContext.Current.Response.Cookies[cookieName].Expires = DateTime.UtcNow.AddDays(30);
+                HttpContext.Current.Response.Cookies[cookieName].Path = "/";
+
+                HttpContext.Current.Response.Redirect(HttpContext.Current.Request.Url.AbsolutePath);
+                return;
+            }
+
             if (!initialized)
             {
                 lock (locker)

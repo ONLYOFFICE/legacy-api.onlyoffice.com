@@ -302,6 +302,7 @@ namespace ASC.Api.Web.Help.Controllers
                 ? config.Document.Title
                 : "Example Title." + config.Document.FileType;
             config.Document.Url = ConfigurationManager.AppSettings["storage_demo_url"] + "demo." + config.Document.FileType;
+            if (config.EditorConfig == null) config.EditorConfig = new Config.EditorConfigConfiguration();
             config.EditorConfig.CallbackUrl = Url.Action("callback", "editors", null, Request.Url.Scheme);
 
             return Content(Helpers.Config.Serialize(config), "application/json");

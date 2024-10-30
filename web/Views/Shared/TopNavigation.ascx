@@ -43,4 +43,9 @@
             </ul>
         </div>
     </nav>
+
+    <% if (string.Equals(ConfigurationManager.AppSettings["trynew"], bool.TrueString, StringComparison.OrdinalIgnoreCase))
+       { %>
+    <% Html.RenderPartial("TryNew"); %>
+    <% } %>
 </div>

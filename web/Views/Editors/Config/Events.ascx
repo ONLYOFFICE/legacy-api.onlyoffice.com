@@ -198,9 +198,10 @@ Event messages will be available in your browser's DevTools console.
         "onWarning"
     ];
 
-    for (var i = 0; i < eventNames.length / 3; i++) {
-        let tr = document.createElement("tr");
-        tr.innerHTML = `
+    var tr = undefined;
+    for (var i = 0; i < eventNames.length; i++) {
+        if (!tr) tr = document.createElement("tr");
+        tr.innerHTML += `
         <th>
             <div class="line">
                 <label class="dataItemSpan">
@@ -209,27 +210,13 @@ Event messages will be available in your browser's DevTools console.
                     <label style="text-transform: none;" for="event_${eventNames[i]}">${eventNames[i]}</label>
                 </label>
             </div>
-        </th>
-        <th>
-            <div class="line">
-                <label class="dataItemSpan">
-                    <input type="checkbox" id="event_${eventNames[i + 11]}" name="event_${eventNames[i + 11]}" hidden="hidden">
-                    <span></span>
-                    <label style="text-transform: none;" for="event_${eventNames[i + 11]}">${eventNames[i + 11]}</label>
-                </label>
-            </div>
-        </th>
-        <th>
-            <div class="line">
-                <label class="dataItemSpan">
-                    <input type="checkbox" id="event_${eventNames[i + 22]}" name="event_${eventNames[i + 22]}" hidden="hidden">
-                    <span></span>
-                    <label style="text-transform: none;" for="event_${eventNames[i + 22]}">${eventNames[i + 22]}</label>
-                </label>
-            </div>
         </th>`;
-        document.getElementById("events-table").appendChild(tr);
+        if (i % 3 == 2) {
+            document.getElementById("events-table").appendChild(tr);
+            tr = undefined;
+        }
     }
+    if (!!tr) document.getElementById("events-table").appendChild(tr);
 </script>
 
 <div id="editorSpace">

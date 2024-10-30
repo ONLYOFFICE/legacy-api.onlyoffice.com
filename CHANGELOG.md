@@ -1,5 +1,8 @@
 # Change Log
 
+## 5.2.0
+- try new button
+
 ## 5.1.0
 - editors: added the startFilling method
 - editors: added the events.onRequestStartFilling event

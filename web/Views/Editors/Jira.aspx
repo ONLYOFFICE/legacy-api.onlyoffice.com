@@ -42,7 +42,7 @@
 
     <p>Upload the compiled <em>target/onlyoffice-jira-app.jar</em> to Jira on the <b>Manage apps</b> page.</p>
     <p>The latest compiled package files are available <a href="https://github.com/ONLYOFFICE/onlyoffice-jira/releases" target="_blank">here</a> 
-        and on <a href="https://marketplace.atlassian.com/???" target="_blank">Atlassian Marketplace</a>.</p>
+        and on <a href="https://marketplace.atlassian.com/apps/1226616/onlyoffice-connector-for-jira" target="_blank">Atlassian Marketplace</a>.</p>
     <p>You can also install the app from the Jira administration panel:</p>
     <ol>
         <li>Navigate to the <b>Manage apps</b> page.</li>

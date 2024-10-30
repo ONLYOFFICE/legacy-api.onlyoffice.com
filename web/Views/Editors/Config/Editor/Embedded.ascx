@@ -153,7 +153,8 @@
                                 Visible = true
                             },
                         IntegrationMode = "embed",
-                }
+                },
+                Mode = "edit",
             },
         Height = "550px",
         Width = "100%"

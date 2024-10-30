@@ -79,9 +79,9 @@ namespace ASC.Api.Web.Help.Helpers
                     {
                         result.Add(new SearchResult
                             {
-                                Name = item["title"].ToString(),
-                                Url = item["link"].ToString(),
-                                Description = item["snippet"].ToString()
+                                Name = item["title"]?.ToString(),
+                                Url = item["link"]?.ToString(),
+                                Description = item["snippet"]?.ToString()
                             });
                     }
                 }

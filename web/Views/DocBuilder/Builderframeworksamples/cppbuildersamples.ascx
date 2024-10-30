@@ -11,7 +11,7 @@
 <p class="dscr">For the samples to work correctly, make sure that two conditions are met:</p>
 <ol>
     <li>
-        <p><a target="blank" href="https://www.onlyoffice.com/download-builder.aspx?utm_source=api">ONLYOFFICE Document Builder</a> is installed into default directory <b>"C:/Program Files/ONLYOFFICE/DocumentBuilder"</b> on your computer.</p>
+        <p><a target="_blank" href="https://www.onlyoffice.com/download-builder.aspx?utm_source=api">ONLYOFFICE Document Builder</a> is installed into default directory <b>"C:/Program Files/ONLYOFFICE/DocumentBuilder"</b> on your computer.</p>
     </li>
     <li><b>The directory</b> in which you are going to store the downloaded samples <b>has general editing access</b> to save files created by the Document Builder.</li>
 </ol>
