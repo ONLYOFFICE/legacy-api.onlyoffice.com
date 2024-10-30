@@ -208,7 +208,7 @@
                             <a href="<%= Url.Action("pluginssdk/addingplugin") %>">Adding plugin</a>
                         </li>
                         <li>
-                            <a href="/docspace-storybook" target="_blank">Storybook</a>
+                            <a href="/docspace-storybook/" target="_blank">Storybook</a>
                         </li>
             <li>
                 <a title="How to create plugin step by step" href="<%= Url.Action("pluginssdk/plugintutorial") %>">How to create plugin step by step</a>
@@ -340,9 +340,6 @@
                         <li>
                             <a href="<%= Url.Action("backend/filters") %>">Filtering</a>
                         </li>
-                        <li>
-                            <a href="<%= Url.Action("backend/batch") %>">Batching</a>
-                        </li>
                     </ul>
                 <%
                     break;
@@ -398,9 +395,6 @@
                         </li>
                         <li>
                             <a href="<%= Url.Action("apisystem/filters") %>">Filtering</a>
-                        </li>
-                        <li>
-                            <a href="<%= Url.Action("apisystem/batch") %>">Batching</a>
                         </li>
                     </ul>
                 <%

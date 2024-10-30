@@ -279,7 +279,7 @@ namespace ASC.Api.Web.Help.Controllers
         }
 
         [HttpPost]
-        public ContentResult ConfigCreate([ModelBinder(typeof(JsonModelBinder))] Config config)
+        public ContentResult ConfigCreate([ModelBinder(typeof(JsonModelBinder))] Config config, bool empty = false)
         {
             Response.AddHeader("Access-Control-Allow-Origin", "*");
             Response.AddHeader("Access-Control-Allow-Methods", "POST, OPTIONS");
@@ -301,7 +301,8 @@ namespace ASC.Api.Web.Help.Controllers
             config.Document.Title = !config.Document.Title.IsEmpty()
                 ? config.Document.Title
                 : "Example Title." + config.Document.FileType;
-            config.Document.Url = ConfigurationManager.AppSettings["storage_demo_url"] + "demo." + config.Document.FileType;
+            config.Document.Url = ConfigurationManager.AppSettings["storage_demo_url"]
+                + (empty ? "new." : "demo.") + config.Document.FileType;
             if (config.EditorConfig == null) config.EditorConfig = new Config.EditorConfigConfiguration();
             config.EditorConfig.CallbackUrl = Url.Action("callback", "editors", null, Request.Url.Scheme);
 

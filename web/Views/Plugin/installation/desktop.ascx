@@ -55,7 +55,7 @@
 <ul style="list-style: none;">
     <li>For Linux - <em>/opt/onlyoffice/desktopeditors/editors/sdkjs-plugins/</em></li>
     <li>For Windows - <em>%ProgramFiles%\ONLYOFFICE\DesktopEditors\editors\sdkjs-plugins\</em></li>
-    <li>For Mac OS - <em>/Applications/ONLYOFFICE.app/Contents/Resources/editors/sdkjs-plugins/</em></li>
+    <li>For Mac OS - <em>~/Library/Application Support/asc.onlyoffice.ONLYOFFICE/data/sdkjs-plugins/</em></li>
 </ul>
 
 <p><b>Step 2.</b> Use a plugin <b>GUID</b> as the folder name. You can find the plugin GUID in the <em>config.json</em> file.</p>

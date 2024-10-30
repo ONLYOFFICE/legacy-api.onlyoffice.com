@@ -6,7 +6,7 @@
 </h1>
 
 <p>If necessary, define the plugin's UI elements.
-    Consult our <a href="/docspace-storybook" target="_blank">Storybook</a> to develop your plugin's UI.</p>
+    Consult our <a href="/docspace-storybook/" target="_blank">Storybook</a> to develop your plugin's UI.</p>
 <p>For example, the <b>draw.io</b> plugin contains two main UI elements - the modal window and the diagram editor.
     Create the files for configuring each element. For your convenience, you can put these files into a separate <em>DrawIO</em> folder.</p>
 <ul>

@@ -3666,48 +3666,6 @@ select:invalid {
    position: relative;
 }
 
-.try-new-block:hover .try-new-popup {
-   display: block;
-}
-
 #tryNew{
    white-space: nowrap;
 }
-
-.try-new-popup {
-   display: none;
-   position: absolute;
-   margin-top: 5px;
-   max-width: 300px;
-   right: 0;
-   padding: 32px;
-   border: 1px solid var(--color-border-quinary);
-   border-radius: 8px;
-   width: max-content;
-   background-color: var(--color-bg-tertiary);
-   box-shadow: var(--color-box-shadow-primary);
-}
-
-   ./*try-new-popup:hover {
-      display: block;
-   }*/
-
-   .try-new-popup .header {
-      font-size: 18px;
-   }
-
-   .try-new-popup .beta-label {
-      padding: 4px;
-      background-color: #EFEFEF;
-      border-radius: 5px;
-      font-weight: 600;
-      font-size: 15px;
-   }
-
-   .try-new-popup p {
-      margin: 0 0 12px 0;
-   }
-
-   .visible {
-      display: block;
-   }

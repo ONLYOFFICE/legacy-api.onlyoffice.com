@@ -11,14 +11,6 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 
-    <% if (Html.IfController("Home"))
-       { %>
-        <div class="search-box-main">
-            <% Html.RenderPartial("SearchForm"); %>
-        </div>
-        <br />
-    <% } %>
-
     <% var result = Model ?? new List<SearchResult>(); %>
     <% if (result.Any())
        { %>

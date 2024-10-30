@@ -14,8 +14,8 @@
             <p class="name-example-sample"><a>Filling spreadsheet</a></p>
             <p>Fills spreadsheet with array-based values.</p>
             <p class="block_more-sample">
-                Download: <a href="<%= new System.UriBuilder(Request.Url.AbsoluteUri) { Path = "/app_data/docbuilder/cpp-samples/FillingSpreadsheet.zip" }.ToString() %>">C++</a> / 
-                <a href="<%= new System.UriBuilder(Request.Url.AbsoluteUri) { Path = "/app_data/docbuilder/csharp-samples/FillingSpreadsheet.zip" }.ToString() %>">.Net</a><br />
+                See: <a href="https://github.com/ONLYOFFICE/document-builder-samples/blob/master/cpp/FillingSpreadsheet/FillingSpreadsheet/FillingSpreadsheet.cpp">C++</a> / 
+                <a href="https://github.com/ONLYOFFICE/document-builder-samples/blob/master/csharp/FillingSpreadsheet/FillingSpreadsheet/Program.cs">.Net</a><br />
                 <a href="<%= Url.Action("buildersamples/fillspreadsheet", "officeapi") %>">More</a>
             </p>
         </div>
@@ -28,8 +28,8 @@
             <p class="name-example-sample"><a>Commenting spreadsheet errors</a></p>
             <p>Comments spreadsheet cells with formula errors.</p>
             <p class="block_more-sample">
-                Download: <a href="<%= new System.UriBuilder(Request.Url.AbsoluteUri) { Path = "/app_data/docbuilder/cpp-samples/CommentingErrors.zip" }.ToString() %>">C++</a> / 
-                <a href="<%= new System.UriBuilder(Request.Url.AbsoluteUri) { Path = "/app_data/docbuilder/csharp-samples/CommentingErrors.zip" }.ToString() %>">.Net</a><br />
+                See: <a href="https://github.com/ONLYOFFICE/document-builder-samples/blob/master/cpp/CommentingErrors/CommentingErrors/CommentingErrors.cpp">C++</a> / 
+                <a href="https://github.com/ONLYOFFICE/document-builder-samples/blob/master/csharp/CommentingErrors/CommentingErrors/Program.cs">.Net</a><br />
                 <a href="<%= Url.Action("buildersamples/commenterrors", "officeapi") %>">More</a>
             </p>
         </div>
@@ -42,8 +42,8 @@
             <p class="name-example-sample"><a>Creating presentation</a></p>
             <p>Creates presentation with multiple slides, images and text.</p>
             <p class="block_more-sample">
-                Download: <a href="<%= new System.UriBuilder(Request.Url.AbsoluteUri) { Path = "/app_data/docbuilder/cpp-samples/CreatingPresentation.zip" }.ToString() %>">C++</a> / 
-                <a href="<%= new System.UriBuilder(Request.Url.AbsoluteUri) { Path = "/app_data/docbuilder/csharp-samples/CreatingPresentation.zip" }.ToString() %>">.Net</a><br />
+                See: <a href="https://github.com/ONLYOFFICE/document-builder-samples/blob/master/cpp/CreatingPresentation/CreatingPresentation/CreatingPresentation.cpp">C++</a> / 
+                <a href="https://github.com/ONLYOFFICE/document-builder-samples/blob/master/csharp/CreatingPresentation/CreatingPresentation/Program.cs">.Net</a><br />
                 <a href="<%= Url.Action("buildersamples/createpresentation", "officeapi") %>">More</a>
             </p>
         </div>
@@ -56,8 +56,8 @@
             <p class="name-example-sample"><a>Creating chart presentation</a></p>
             <p>Creates single-slide chart presentation.</p>
             <p class="block_more-sample">
-                Download: <a href="<%= new System.UriBuilder(Request.Url.AbsoluteUri) { Path = "/app_data/docbuilder/cpp-samples/CreatingChartPresentation.zip" }.ToString() %>">C++</a> / 
-                <a href="<%= new System.UriBuilder(Request.Url.AbsoluteUri) { Path = "/app_data/docbuilder/csharp-samples/CreatingChartPresentation.zip" }.ToString() %>">.Net</a><br />
+                See: <a href="https://github.com/ONLYOFFICE/document-builder-samples/blob/master/cpp/CreatingChartPresentation/CreatingChartPresentation/CreatingChartPresentation.cpp">C++</a> / 
+                <a href="https://github.com/ONLYOFFICE/document-builder-samples/blob/master/csharp/CreatingChartPresentation/CreatingChartPresentation/Program.cs">.Net</a><br />
                 <a href="<%= Url.Action("buildersamples/createchartpresentation", "officeapi") %>">More</a>
             </p>
         </div>
@@ -70,8 +70,8 @@
             <p class="name-example-sample"><a>Creating basic form</a></p>
             <p>Creates basic form with text and image inputs.</p>
             <p class="block_more-sample">
-                Download: <a href="<%= new System.UriBuilder(Request.Url.AbsoluteUri) { Path = "/app_data/docbuilder/cpp-samples/CreatingBasicForm.zip" }.ToString() %>">C++</a> / 
-                <a href="<%= new System.UriBuilder(Request.Url.AbsoluteUri) { Path = "/app_data/docbuilder/csharp-samples/CreatingBasicForm.zip" }.ToString() %>">.Net</a><br />
+                See: <a href="https://github.com/ONLYOFFICE/document-builder-samples/blob/master/cpp/CreatingBasicForm/CreateBasicForm/CreateBasicForm.cpp">C++</a> / 
+                <a href="https://github.com/ONLYOFFICE/document-builder-samples/blob/master/csharp/CreatingBasicForm/CreatingBasicForm/Program.cs">.Net</a><br />
                 <a href="<%= Url.Action("buildersamples/createbasicform", "officeapi") %>">More</a>
             </p>
         </div>
@@ -84,8 +84,8 @@
             <p class="name-example-sample"><a>Creating advanced form</a></p>
             <p>Creates advanced form with table structure.</p>
             <p class="block_more-sample">
-                Download: <a href="<%= new System.UriBuilder(Request.Url.AbsoluteUri) { Path = "/app_data/docbuilder/cpp-samples/CreatingAdvancedForm.zip" }.ToString() %>">C++</a> / 
-                <a href="<%= new System.UriBuilder(Request.Url.AbsoluteUri) { Path = "/app_data/docbuilder/csharp-samples/CreatingAdvancedForm.zip" }.ToString() %>">.Net</a><br />
+                See: <a href="https://github.com/ONLYOFFICE/document-builder-samples/blob/master/cpp/CreatingAdvancedForm/CreateAdvancedForm/CreateAdvancedForm.cpp">C++</a> / 
+                <a href="https://github.com/ONLYOFFICE/document-builder-samples/blob/master/csharp/CreatingAdvancedForm/CreatingAdvancedForm/Program.cs">.Net</a><br />
                 <a href="<%= Url.Action("buildersamples/createadvancedform", "officeapi") %>">More</a>
             </p>
         </div>
@@ -98,8 +98,8 @@
             <p class="name-example-sample"><a>Filling form</a></p>
             <p>Fills form with text values and image.</p>
             <p class="block_more-sample">
-                Download: <a href="<%= new System.UriBuilder(Request.Url.AbsoluteUri) { Path = "/app_data/docbuilder/cpp-samples/FillingForm.zip" }.ToString() %>">C++</a> / 
-                <a href="<%= new System.UriBuilder(Request.Url.AbsoluteUri) { Path = "/app_data/docbuilder/csharp-samples/FillingForm.zip" }.ToString() %>">.Net</a><br />
+                See: <a href="https://github.com/ONLYOFFICE/document-builder-samples/blob/master/cpp/FillingForm/FillForm/FillForm.cpp">C++</a> / 
+                <a href="https://github.com/ONLYOFFICE/document-builder-samples/blob/master/csharp/FillingForm/FillingForm/Program.cs">.Net</a><br />
                 <a href="<%= Url.Action("buildersamples/fillform", "officeapi") %>">More</a>
             </p>
         </div>

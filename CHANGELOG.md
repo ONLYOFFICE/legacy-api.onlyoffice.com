@@ -1,5 +1,10 @@
 # Change Log
 
+## 5.3.0
+- docbuilder: samples as link
+- try new version with new link
+- hide search
+
 ## 5.2.0
 - try new button
 

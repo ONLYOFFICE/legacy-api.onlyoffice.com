@@ -18,28 +18,28 @@
 
 <h2>Download a sample</h2>
 
-<p>Download one of the Builder C++ samples archive and unzip it into a folder with general editing access.</p>
+<p>Download one of the Builder C++ samples and copy it into a folder with general editing access.</p>
 <ul>
     <li>
-        <a href="<%= new System.UriBuilder(Request.Url.AbsoluteUri) { Path = "/app_data/docbuilder/cpp-samples/FillingSpreadsheet.zip" }.ToString() %>">Filling spreadsheet</a>
+        <a href="https://github.com/ONLYOFFICE/document-builder-samples/blob/master/cpp/FillingSpreadsheet/FillingSpreadsheet/FillingSpreadsheet.cpp">Filling spreadsheet</a>
     </li>
     <li>
-        <a href="<%= new System.UriBuilder(Request.Url.AbsoluteUri) { Path = "/app_data/docbuilder/cpp-samples/CommentingErrors.zip" }.ToString() %>">Commenting spreadsheet errors</a>
+        <a href="https://github.com/ONLYOFFICE/document-builder-samples/blob/master/cpp/CommentingErrors/CommentingErrors/CommentingErrors.cpp">Commenting spreadsheet errors</a>
     </li>
     <li>
-        <a href="<%= new System.UriBuilder(Request.Url.AbsoluteUri) { Path = "/app_data/docbuilder/cpp-samples/CreatingPresentation.zip" }.ToString() %>">Creating presentation</a>
+        <a href="https://github.com/ONLYOFFICE/document-builder-samples/blob/master/cpp/CreatingPresentation/CreatingPresentation/CreatingPresentation.cpp">Creating presentation</a>
     </li>
     <li>
-        <a href="<%= new System.UriBuilder(Request.Url.AbsoluteUri) { Path = "/app_data/docbuilder/cpp-samples/CreatingChartPresentation.zip" }.ToString() %>">Creating chart presentation</a>
+        <a href="https://github.com/ONLYOFFICE/document-builder-samples/blob/master/cpp/CreatingChartPresentation/CreatingChartPresentation/CreatingChartPresentation.cpp">Creating chart presentation</a>
     </li>
     <li>
-        <a href="<%= new System.UriBuilder(Request.Url.AbsoluteUri) { Path = "/app_data/docbuilder/cpp-samples/CreatingBasicForm.zip" }.ToString() %>">Creating basic form</a>
+        <a href="https://github.com/ONLYOFFICE/document-builder-samples/blob/master/cpp/CreatingBasicForm/CreateBasicForm/CreateBasicForm.cpp">Creating basic form</a>
     </li>
     <li>
-        <a href="<%= new System.UriBuilder(Request.Url.AbsoluteUri) { Path = "/app_data/docbuilder/cpp-samples/CreatingAdvancedForm.zip" }.ToString() %>">Creating advanced form</a>
+        <a href="https://github.com/ONLYOFFICE/document-builder-samples/blob/master/cpp/CreatingAdvancedForm/CreateAdvancedForm/CreateAdvancedForm.cpp">Creating advanced form</a>
     </li>
     <li>
-        <a href="<%= new System.UriBuilder(Request.Url.AbsoluteUri) { Path = "/app_data/docbuilder/cpp-samples/FillingForm.zip" }.ToString() %>">Filling form</a>
+        <a href="https://github.com/ONLYOFFICE/document-builder-samples/blob/master/cpp/FillingForm/FillForm/FillForm.cpp">Filling form</a>
     </li>
 </ul>
 
