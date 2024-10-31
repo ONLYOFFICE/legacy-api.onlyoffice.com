@@ -1,8 +1,8 @@
-builder.OpenFile("https://api.onlyoffice.com/app_data/officeapi/sample-files/empty_form.pdf");
+builder.OpenFile("https://legacy-api.onlyoffice.com/app_data/officeapi/sample-files/empty_form.pdf");
 var oDocument = Api.GetDocument();
 
 var data = {
-    "Photo": "https://api.onlyoffice.com/content/img/docbuilder/examples/blue_cloud.png",
+    "Photo": "https://legacy-api.onlyoffice.com/content/img/docbuilder/examples/blue_cloud.png",
     "Serial":"A1345",
     "Company Name": "Blue Cloud Corporation",
     "Date": "25.12.2023",

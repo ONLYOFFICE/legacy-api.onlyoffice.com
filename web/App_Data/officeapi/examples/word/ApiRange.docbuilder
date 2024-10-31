@@ -4,7 +4,7 @@ var oParagraph = oDocument.GetElement(0);
 oParagraph.AddText("This is just a sample text to demonstrate the methods for ApiRange. ");
 oParagraph.GetRange(57, 64).AddBookmark("class ApiRange");
 oParagraph.GetRange(57, 66).AddText("onlyoffice", "after");
-oParagraph.GetRange(67, 76).AddHyperlink("https://api.onlyoffice.com/docbuilder/basic");
+oParagraph.GetRange(67, 76).AddHyperlink("https://legacy-api.onlyoffice.com/docbuilder/basic");
 oParagraph.GetRange(67, 76).SetCaps(true);
 oParagraph.GetRange(67, 76).SetSpacing(2);
 oParagraph.GetRange(0, 3).SetColor(255, 111, 61);

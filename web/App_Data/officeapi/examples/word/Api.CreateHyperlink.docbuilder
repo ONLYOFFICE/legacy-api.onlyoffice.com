@@ -1,6 +1,6 @@
 builder.CreateFile("docx");
 var oDocument = Api.GetDocument();
-var oHyperlink = Api.CreateHyperlink("https://api.onlyoffice.com/", "ONLYOFFICE Document Builder", "ONLYOFFICE for developers");
+var oHyperlink = Api.CreateHyperlink("https://legacy-api.onlyoffice.com/", "ONLYOFFICE Document Builder", "ONLYOFFICE for developers");
 var sType = oHyperlink.GetClassType();
 var oParagraph = oDocument.GetElement(0);
 oParagraph.AddElement(oHyperlink, 0);

@@ -17,7 +17,7 @@ function addTextFormToParagraph(oParagraph, fontSize, key, placeholder, maxChara
     oParagraph.SetJc(jc);
 };
 
-var oDrawing = Api.CreateImage("https://api.onlyoffice.com/content/img/docbuilder/examples/form-template.png", 210 * 36000, 300 * 36000);
+var oDrawing = Api.CreateImage("https://legacy-api.onlyoffice.com/content/img/docbuilder/examples/form-template.png", 210 * 36000, 300 * 36000);
 oDrawing.SetHorAlign("page", "left");
 oDrawing.SetVerAlign("page", "top");
 oDrawing.SetWrappingStyle("behind");

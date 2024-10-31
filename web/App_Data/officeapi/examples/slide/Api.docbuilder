@@ -1,7 +1,7 @@
 builder.CreateFile("pptx");
 var oPresentation = Api.GetPresentation();
-var oImageTitle = Api.CreateImage("https://api.onlyoffice.com/content/img/docbuilder/examples/api-slide-1.jpg", 350 * 36000, 195* 36000);
-var oImageSlideOne = Api.CreateImage("https://api.onlyoffice.com/content/img/docbuilder/examples/api-slide-2.jpg", 350 * 36000, 195* 36000);
+var oImageTitle = Api.CreateImage("https://legacy-api.onlyoffice.com/content/img/docbuilder/examples/api-slide-1.jpg", 350 * 36000, 195* 36000);
+var oImageSlideOne = Api.CreateImage("https://legacy-api.onlyoffice.com/content/img/docbuilder/examples/api-slide-2.jpg", 350 * 36000, 195* 36000);
 var oSlide = oPresentation.GetSlideByIndex(0);
 oSlide.RemoveAllObjects();
 oSlide.AddObject(oImageTitle);

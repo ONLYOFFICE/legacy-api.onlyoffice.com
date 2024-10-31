@@ -7,7 +7,7 @@ oParagraph.AddElement(oRun1, 0);
 var oRun2 = Api.CreateRun();
 oRun2.AddText(" ONLYOFFICE for developers");
 oParagraph.AddElement(oRun2, 1);
-var oHyperlink = oParagraph.AddHyperlink("https://api.onlyoffice.com/docbuilder/basic");
+var oHyperlink = oParagraph.AddHyperlink("https://legacy-api.onlyoffice.com/docbuilder/basic");
 var nElementsCount = oHyperlink.GetElementsCount();
 oParagraph = Api.CreateParagraph();
 oParagraph.AddText("Number of elements in hyperlink: " + nElementsCount);
