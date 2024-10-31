@@ -153,7 +153,7 @@ git submodule update --init --recursive</span>
     <p>Depending on your webserver configuration you can drop the <em>index.php</em> segment from the URL path.</p>
     
     <h2 id="howitworks" class="copy-link">How it works</h2>
-    <p>The ONLYOFFICE integration follows the API documented <a href="https://api.onlyoffice.com/editors/basic">here</a>.</p>
+    <p>The ONLYOFFICE integration follows the API documented <a href="<%= Url.Action("basic") %>">here</a>.</p>
     <ol>
         <li>When creating a new file, the user navigates to a document folder within ownCloud and clicks the <b>Document</b>, <b>Spreadsheet</b> or <b>Presentation</b> item in the <b>new (+)</b> menu.</li>
         <li>
