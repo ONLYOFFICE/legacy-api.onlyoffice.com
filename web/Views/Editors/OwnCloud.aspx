@@ -154,7 +154,7 @@ git submodule update --init --recursive</span>
     <p>根据您的网络服务器配置，您可以从 URL 路径中删除 <em>index.php</em> 部分。</p>
     
     <h2 id="howitworks" class="copy-link">它是如何运作的</h2>
-    <p>ONLYOFFICE 集成遵循<a href="https://api.onlyoffice.com/zh/editors/basic">此处</a>的 API文檔。</p>
+    <p>ONLYOFFICE 集成遵循<a href="<%= Url.Action("basic") %>">此处</a>的 API文檔。</p>
     <ol>
         <li>创建新文件时，用户导航到 ownCloud 中的文档文件夹，然后单击 <b>新建 (+)</b>菜单中的 <b>文档</b>、 <b>电子表格</b> 或 <b>演示文稿</b> 菜单项。</li>
         <li>

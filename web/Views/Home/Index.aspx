@@ -18,9 +18,6 @@
                 <span class="hdr title-main">欢迎使用 ONLYOFFICE API</span>
             </h1>
         </div>
-        <div class="search-box-main">
-            <% Html.RenderPartial("SearchForm"); %>
-        </div>
 
         <div class="main-items">
             <%

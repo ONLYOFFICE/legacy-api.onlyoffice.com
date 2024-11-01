@@ -93,7 +93,7 @@ mvn clean install</pre>
 
     <h2 id="how-it-works" class="copy-link">这是如何运作的</h2>
 
-    <p>ONLYOFFICE 集成遵循 <a href="https://api.onlyoffice.com/zh/editors/basic">此处</a>的 API 文档。</p>
+    <p>ONLYOFFICE 集成遵循 <a href="<%= Url.Action("basic") %>">此处</a>的 API 文档。</p>
 
 
     <br />
