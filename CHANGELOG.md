@@ -1,5 +1,8 @@
 # Change Log
 
+##
+- replace internal link to legacy-api
+
 ## 5.3.0
 - docbuilder: samples as link
 - try new version with new link
