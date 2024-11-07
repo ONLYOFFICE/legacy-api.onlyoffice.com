@@ -14,7 +14,7 @@ var oParagraph = oDocument.GetElement(0);
 oParagraph.SetStyle(oHeading1Style);
 oParagraph.AddText("Weekly Report | QTR 3 Week 12");
 
-var oDrawing =Api.CreateImage("https://api.onlyoffice.com/content/img/docbuilder/examples/api-word.jpg", 220 * 36000, 350 * 36000);
+var oDrawing =Api.CreateImage("https://legacy-api.onlyoffice.com/content/img/docbuilder/examples/api-word.jpg", 220 * 36000, 350 * 36000);
 oDrawing.SetWrappingStyle("behind");
 oDrawing.SetHorAlign("page", "left");
 oDrawing.SetVerAlign("page", "top");

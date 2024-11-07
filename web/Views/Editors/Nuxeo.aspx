@@ -93,7 +93,7 @@ mvn clean install</pre>
 
     <h2 id="how-it-works" class="copy-link">How it works</h2>
 
-    <p>The ONLYOFFICE integration follows the API documented <a href="https://api.onlyoffice.com/editors/basic">here</a>.</p>
+    <p>The ONLYOFFICE integration follows the API documented <a href="<%= Url.Action("basic") %>">here</a>.</p>
 
 
     <br />

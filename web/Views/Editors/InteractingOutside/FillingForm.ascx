@@ -146,7 +146,11 @@ function onChangeContentControl(e) {
                     {
                         FileType = "pdf",
                         Key = "apiwh" + Guid.NewGuid(),
-                        Permissions = new Config.DocumentConfig.PermissionsConfig(),
+                        Permissions = new Config.DocumentConfig.PermissionsConfig
+                        {
+                            Edit = false,
+                            FillForms = true
+                        },
                         Title = "Demo.pdf",
                         Url = ConfigurationManager.AppSettings["storage_demo_url"] + "withtags.pdf"
                     },

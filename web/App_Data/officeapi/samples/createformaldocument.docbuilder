@@ -190,7 +190,7 @@ oDocument.Push(oParagraph);
 
 oParagraph = Api.CreateParagraph();
 oParagraph.SetStyle(oHeading1Style);
-oDrawing = Api.CreateImage("https://api.onlyoffice.com/content/img/docbuilder/examples/launch_photo.png", 720725, 1204595);
+oDrawing = Api.CreateImage("https://legacy-api.onlyoffice.com/content/img/docbuilder/examples/launch_photo.png", 720725, 1204595);
 oDrawing.SetWrappingStyle("tight");
 oDrawing.SetHorAlign("margin", "left");
 oDrawing.SetVerPosition("page", 1810470);
@@ -682,7 +682,7 @@ if (oRow)
         oParagraph = oCellContent.GetElement(0);
         oParagraph.SetStyle(oFooterStyle);
         oParagraph.SetJc("right");
-        oDrawing = Api.CreateImage("https://api.onlyoffice.com/content/img/docbuilder/examples/onlyoffice_logo.png", 495300, 481965);
+        oDrawing = Api.CreateImage("https://legacy-api.onlyoffice.com/content/img/docbuilder/examples/onlyoffice_logo.png", 495300, 481965);
         oDrawing.SetWrappingStyle("inline");
         oParagraph.AddDrawing(oDrawing);
     }

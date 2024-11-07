@@ -10,7 +10,7 @@ oFillColor = Api.CreateColorFromRGB(232, 240, 252);
 oWorksheet.GetRange("A1").SetColumnWidth(14);
 oWorksheet.GetRange("B1:M1").SetColumnWidth(7);
 oWorksheet.GetRange("A1:A4").SetRowHeight(27);
-var oImage = oWorksheet.AddImage("https://api.onlyoffice.com/content/img/docbuilder/examples/api-cell.png", 28 * 36000, 28 * 36000, 5, 0, 0, 0);
+var oImage = oWorksheet.AddImage("https://legacy-api.onlyoffice.com/content/img/docbuilder/examples/api-cell.png", 28 * 36000, 28 * 36000, 5, 0, 0, 0);
 
 var oRange = oWorksheet.GetRange("C4:J4");
 oRange.Merge(false);
