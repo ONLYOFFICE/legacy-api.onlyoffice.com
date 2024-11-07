@@ -182,11 +182,11 @@
             </div>
             <div class="line input_line">
                 <label for="editorConfig_customization_customer_logo">Logo标志</label>
-                <input type="text" id="editorConfig_customization_customer_logo" name="editorConfig_customization_customer_logo" value="https://legacy-api.onlyoffice.com/zh/content/img/docbuilder/examples/blue_cloud.png">
+                <input type="text" id="editorConfig_customization_customer_logo" name="editorConfig_customization_customer_logo" value="https://legacy-api.onlyoffice.com/content/img/docbuilder/examples/blue_cloud.png">
             </div>
             <div class="line input_line">
                 <label for="editorConfig_customization_customer_logoDark">深色Logo标志</label>
-                <input type="text" id="editorConfig_customization_customer_logoDark" name="editorConfig_customization_customer_logoDark" value="https://legacy-api.onlyoffice.com/zh/content/img/docbuilder/examples/user-profile.png">
+                <input type="text" id="editorConfig_customization_customer_logoDark" name="editorConfig_customization_customer_logoDark" value="https://legacy-api.onlyoffice.com/content/img/docbuilder/examples/user-profile.png">
             </div>
             <div class="line input_line">
                 <label for="editorConfig_customization_customer_mail">邮件</label>
@@ -324,11 +324,11 @@
         <div id="holder_editorConfig_customization_logo" class="config_object_holder" hidden>
             <div class="line input_line">
                 <label for="editorConfig_customization_logo_image">图像</label>
-                <input type="text" id="editorConfig_customization_logo_image" name="editorConfig_customization_logo_image" value="https://legacy-api.onlyoffice.com/zh/content/img/docbuilder/examples/blue_cloud.png">
+                <input type="text" id="editorConfig_customization_logo_image" name="editorConfig_customization_logo_image" value="https://legacy-api.onlyoffice.com/content/img/docbuilder/examples/blue_cloud.png">
             </div>
             <div class="line input_line">
                 <label for="editorConfig_customization_logo_imageDark">深色图像</label>
-                <input type="text" id="editorConfig_customization_logo_imageDark" name="editorConfig_customization_logo_imageDark" value="https://legacy-api.onlyoffice.com/zh/content/img/docbuilder/examples/user-profile.png">
+                <input type="text" id="editorConfig_customization_logo_imageDark" name="editorConfig_customization_logo_imageDark" value="https://legacy-api.onlyoffice.com/content/img/docbuilder/examples/user-profile.png">
             </div>
             <div class="line input_line">
                 <label for="editorConfig_customization_logo_url">Url地址</label>
