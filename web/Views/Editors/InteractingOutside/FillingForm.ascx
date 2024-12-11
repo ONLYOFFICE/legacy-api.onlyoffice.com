@@ -238,11 +238,13 @@ function onChangeContentControl(e) {
                 "GetFormsByTag",
                 [tag],
                 function (forms) {
-                    connector.executeMethod(
-                        "SetFormValue",
-                        [forms[0]["InternalId"], value],
-                        null
-                    );
+                    if (forms && forms.length > 0) {
+                        connector.executeMethod(
+                            "SetFormValue",
+                            [forms[0]["InternalId"], value],
+                            null
+                        );
+                    }
                 }
             );
         }
