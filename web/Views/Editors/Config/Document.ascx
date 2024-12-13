@@ -150,22 +150,11 @@
                         <br />
                         <b>example</b>:  "https://example.com";
                     </li>
-                    <li>
-                        <b>key</b> - defines the unique document identifier used by the service to take the data from the co-editing session.
-                        In case the known key is sent, the document will be taken from the cache.
-                        Every time the document is edited and saved, the key must be generated anew.
-                        The document url can be used as the <b>key</b> but without the special characters and the length is limited to 128 symbols,
-                        <br />
-                        <b>type</b>: string,
-                        <br />
-                        <b>example</b>:  "Khirz6zTPdfd7".
-                    </li>
                 </ul>
             <td>object</td>
             <td>{
     "fileKey": "BCFA2CED",
-    "instanceId": "https://example.com",
-    "key": "Khirz6zTPdfd7"
+    "instanceId": "https://example.com"
 }</td>
         </tr>
         <tr class="tablerow">
@@ -344,8 +333,7 @@
         var referenceData = `
         "referenceData": {
             "fileKey": ${getFieldValue("document_file_key")},
-            "instanceId": ${getFieldValue("document_instance_id")},
-            "key": ${getFieldValue("document_key")}
+            "instanceId": ${getFieldValue("document_instance_id")}
         },`;
         if (!document.getElementById('document_reference_data').checked) {
             referenceData = "";

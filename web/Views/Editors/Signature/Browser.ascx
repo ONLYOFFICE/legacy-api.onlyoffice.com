@@ -151,11 +151,11 @@
         <pre>
 {
     "fileType": "xlsx",
+    "key": "Khirz6zTPdfd7",
     "path": "sample.xlsx",
     "referenceData": {
         "fileKey": "BCFA2CED",
-        "instanceId": "https://example.com",
-        "key": "Khirz6zTPdfd7"
+        "instanceId": "https://example.com"
     },
     "url": "https://example.com/url-to-example-document.xlsx"
 }
@@ -166,7 +166,7 @@
         </p>
 
         <div class="header-gray">Sample token</div>
-        <pre>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaWxlVHlwZSI6Inhsc3giLCJwYXRoIjoic2FtcGxlLnhsc3giLCJyZWZlcmVuY2VEYXRhIjp7ImZpbGVLZXkiOiJCQ0ZBMkNFRCIsImluc3RhbmNlSWQiOiJodHRwczovL2V4YW1wbGUuY29tIn0sInVybCI6Imh0dHBzOi8vZXhhbXBsZS5jb20vdXJsLXRvLWV4YW1wbGUtZG9jdW1lbnQueGxzeCJ9.UXosmM-E_Cu9j9QGSlcj9FEoSu5m-zCS4b6FxO_2k7w</pre>
+        <pre>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaWxlVHlwZSI6Inhsc3giLCJrZXkiOiJLaGlyejZ6VFBkZmQ3IiwicGF0aCI6InNhbXBsZS54bHN4IiwicmVmZXJlbmNlRGF0YSI6eyJmaWxlS2V5IjoiQkNGQTJDRUQiLCJpbnN0YW5jZUlkIjoiaHR0cHM6Ly9leGFtcGxlLmNvbSJ9LCJ1cmwiOiJodHRwczovL2V4YW1wbGUuY29tL3VybC10by1leGFtcGxlLWRvY3VtZW50Lnhsc3gifQ.US2wsI__77B0ApzMOIUGIU49cUAORvdzGZ4V49BO4Dc</pre>
     </li>
     <li>
         <p><b id="setReferenceSource" class="copy-link">setReferenceSource</b> - when calling the <a href="<%= Url.Action("methods") %>#setReferenceSource">setReferenceSource</a> method to change a source of the external data, the <a href="<%= Url.Action("methods") %>#setReferenceSource-token">token</a> must be added to validate the parameters.</p>
@@ -179,11 +179,11 @@
         <pre>
 {
     "fileType": "xlsx",
+    "key": "Khirz6zTPdfd7",
     "path": "sample.xlsx",
     "referenceData": {
         "fileKey": "BCFA2CED",
-        "instanceId": "https://example.com",
-        "key": "Khirz6zTPdfd7"
+        "instanceId": "https://example.com"
     },
     "url": "https://example.com/url-to-example-document.xlsx"
 }
@@ -194,7 +194,7 @@
         </p>
 
         <div class="header-gray">Sample token</div>
-        <pre>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaWxlVHlwZSI6Inhsc3giLCJwYXRoIjoic2FtcGxlLnhsc3giLCJyZWZlcmVuY2VEYXRhIjp7ImZpbGVLZXkiOiJCQ0ZBMkNFRCIsImluc3RhbmNlSWQiOiJodHRwczovL2V4YW1wbGUuY29tIn0sInVybCI6Imh0dHBzOi8vZXhhbXBsZS5jb20vdXJsLXRvLWV4YW1wbGUtZG9jdW1lbnQueGxzeCJ9.UXosmM-E_Cu9j9QGSlcj9FEoSu5m-zCS4b6FxO_2k7w</pre>
+        <pre>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaWxlVHlwZSI6Inhsc3giLCJrZXkiOiJLaGlyejZ6VFBkZmQ3IiwicGF0aCI6InNhbXBsZS54bHN4IiwicmVmZXJlbmNlRGF0YSI6eyJmaWxlS2V5IjoiQkNGQTJDRUQiLCJpbnN0YW5jZUlkIjoiaHR0cHM6Ly9leGFtcGxlLmNvbSJ9LCJ1cmwiOiJodHRwczovL2V4YW1wbGUuY29tL3VybC10by1leGFtcGxlLWRvY3VtZW50Lnhsc3gifQ.US2wsI__77B0ApzMOIUGIU49cUAORvdzGZ4V49BO4Dc</pre>
     </li>
     <li>
         <p><b id="setRequestedDocument" class="copy-link">setRequestedDocument</b> - when calling the <a href="<%= Url.Action("methods") %>#setRequestedDocument">setRequestedDocument</a> method to select a document for comparing or combining, the <a href="<%= Url.Action("methods") %>#setRequestedDocument-token">token</a> must be added to validate the parameters.</p>
