@@ -1,5 +1,8 @@
 # Change Log
 
+##
+- docspace: hide deleteportalimmediately method
+
 ## 5.3.1
 - replace internal link to legacy-api
 

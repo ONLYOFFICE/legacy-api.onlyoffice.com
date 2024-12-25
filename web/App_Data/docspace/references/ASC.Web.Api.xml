@@ -2670,6 +2670,7 @@
             <returns></returns>
             <path>api/2.0/portal/deleteportalimmediately</path>
             <httpMethod>DELETE</httpMethod>
+            <visible>false</visible>
         </member>
         <member name="M:ASC.Web.Api.Controllers.PortalController.SendSuspendInstructionsAsync">
             <summary>
